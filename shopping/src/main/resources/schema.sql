@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS `products` (
+    `id` INT PRIMARY KEY AUTO_INCREMENT,
+    `name` VARCHAR(100) NOT NULL,
+    `description` VARCHAR(100) NOT NULL,
+    `price` NUMERIC(5, 2) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS `customers` (
+    `id` INT PRIMARY KEY AUTO_INCREMENT,
+    `name` VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS `orders`(
+    `id` INT PRIMARY KEY AUTO_INCREMENT,
+    `orderNumber` INT NOT NULL,
+    `customerId` INT NOT NULL,
+    `productId` INT NOT NULL,
+    `orderDate` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

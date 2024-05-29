@@ -1,0 +1,51 @@
+# Create Products
+
+{
+    "name": "Red Roses",
+    "description": "Nothing burns brighter than your passion and love.",
+    "price": 40.50
+}
+
+{
+    "name": "Fiesta Bouquet",
+    "description": "The Fiesta Bouquet is composed of a lively mix, fit to celebrate any and every moment.",
+    "price": 60
+}
+
+{
+    "name": "Pastel Traditions",
+    "description": "Celebrate new life with fresh spring colors and seasonal flowers.",
+    "price": 50.45
+}
+
+# Create Customers
+
+{
+    "name": "Venkat"
+}
+
+{
+    "name": "Sunil"
+}
+
+{
+    "name": "Narayan"
+}
+
+# Create Orders
+
+{
+    "customerId": 1,
+    "productId": 1
+}
+
+{
+    "customerId": 1,
+    "productId": 2
+}
+
+{
+    "customerId": 2,
+    "productId": 2
+}
+
